@@ -25,8 +25,8 @@ Add the following 2 properties to your configuration:
 ```json
 {
     ...
-    "packages_aur": ["giph", "ttf-material-design-icons-git"],
-    "plugin": "http://10.0.2.2:8000/plugins/archinstall-aur.py",
+    "packages_aur": ["package1", "package2", "package3"],
+    "plugin": "https://github.com/phisch/archinstall-aur/raw/master/archinstall-aur.py",
     ...
 }
 ```
